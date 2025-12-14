@@ -1,0 +1,6 @@
+forecast_ETTh1_few_shot_timer_UnivariateDatasetBenchmark_sl2880_it96_ot96_lr5e-06_bt2048_wd0_el8_dm1024_dff2048_nh8_cosTrue_test_0  
+mse:0.3689182698726654, mae:0.39750656485557556
+
+forecast_ETTh1_few_shot_timer_UnivariateDatasetBenchmark_sl2880_it96_ot96_lr5e-06_bt2048_wd0_el4_dm1024_dff2048_nh8_cosTrue_test_0  
+mse:0.36416319012641907, mae:0.393794983625412
+

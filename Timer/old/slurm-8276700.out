@@ -1,0 +1,293 @@
+Date:     Mon Dec  8 03:21:14 PM EST 2025
+Hostname: cn-c028.server.mila.quebec
+[=== Module python/3.10 loaded ===]
+[=== Module cudatoolkit/11.8 loaded ===]
+bash: /home/mila/s/senthils/miniconda3/envs/openLTM/lib/libtinfo.so.6: no version information available (required by bash)
+>>>>>>>start training : forecast_utsd_timer_Utsd_Npy_sl2880_it96_ot96_lr5e-05_bt8192_wd0_el8_dm1024_dff2048_nh8_cosTrue_test_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+Total number of windows in merged dataset:  869661816
+train 869661816
+Total number of windows in merged dataset:  55469985
+val 55469985
+Total number of windows in merged dataset:  55273342
+test 55273342
+next learning rate is 5e-05
+	iters: 100, epoch: 1 | loss: 0.4143547
+	speed: 5.0335s/iter; left time: 5343084.8735s
+	iters: 200, epoch: 1 | loss: 0.3846617
+	speed: 3.7569s/iter; left time: 3987540.0308s
+	iters: 300, epoch: 1 | loss: 0.3733096
+	speed: 3.8744s/iter; left time: 4111939.4681s
+	iters: 400, epoch: 1 | loss: 0.3591650
+	speed: 3.7033s/iter; left time: 3929926.0188s
+	iters: 500, epoch: 1 | loss: 0.3454557
+	speed: 3.7058s/iter; left time: 3932231.8393s
+	iters: 600, epoch: 1 | loss: 0.3477137
+	speed: 3.7083s/iter; left time: 3934500.6024s
+	iters: 700, epoch: 1 | loss: 0.3428413
+	speed: 3.7087s/iter; left time: 3934542.5082s
+	iters: 800, epoch: 1 | loss: 0.3401132
+	speed: 3.6970s/iter; left time: 3921800.8428s
+	iters: 900, epoch: 1 | loss: 0.3318134
+	speed: 3.6979s/iter; left time: 3922356.9970s
+	iters: 1000, epoch: 1 | loss: 0.3356310
+	speed: 3.7783s/iter; left time: 4007255.1861s
+	iters: 1100, epoch: 1 | loss: 0.3327873
+	speed: 3.6998s/iter; left time: 3923609.3549s
+	iters: 1200, epoch: 1 | loss: 0.3306977
+	speed: 3.6989s/iter; left time: 3922312.0873s
+	iters: 1300, epoch: 1 | loss: 0.3294840
+	speed: 3.6997s/iter; left time: 3922752.6044s
+	iters: 1400, epoch: 1 | loss: 0.3201976
+	speed: 3.6964s/iter; left time: 3918978.1941s
+	iters: 1500, epoch: 1 | loss: 0.3151811
+	speed: 3.7063s/iter; left time: 3929036.9578s
+	iters: 1600, epoch: 1 | loss: 0.3132659
+	speed: 3.7094s/iter; left time: 3931958.9708s
+	iters: 1700, epoch: 1 | loss: 0.3207653
+	speed: 3.7080s/iter; left time: 3930060.9574s
+	iters: 1800, epoch: 1 | loss: 0.3159716
+	speed: 3.7853s/iter; left time: 4011627.7029s
+	iters: 1900, epoch: 1 | loss: 0.3144227
+	speed: 3.6979s/iter; left time: 3918616.6197s
+	iters: 2000, epoch: 1 | loss: 0.3180277
+	speed: 3.6933s/iter; left time: 3913450.9187s
+	iters: 2100, epoch: 1 | loss: 0.3127648
+	speed: 3.6997s/iter; left time: 3919798.0477s
+	iters: 2200, epoch: 1 | loss: 0.3064083
+	speed: 3.6951s/iter; left time: 3914621.8081s
+	iters: 2300, epoch: 1 | loss: 0.3204096
+	speed: 3.6943s/iter; left time: 3913414.2555s
+	iters: 2400, epoch: 1 | loss: 0.3124563
+	speed: 3.6963s/iter; left time: 3915104.3463s
+	iters: 2500, epoch: 1 | loss: 0.3060715
+	speed: 3.7751s/iter; left time: 3998183.4242s
+	iters: 2600, epoch: 1 | loss: 0.3103599
+	speed: 3.6945s/iter; left time: 3912463.6141s
+	iters: 2700, epoch: 1 | loss: 0.3090846
+	speed: 3.6947s/iter; left time: 3912315.3851s
+	iters: 2800, epoch: 1 | loss: 0.2987852
+	speed: 3.6933s/iter; left time: 3910461.6772s
+	iters: 2900, epoch: 1 | loss: 0.3050480
+	speed: 3.6990s/iter; left time: 3916118.0353s
+	iters: 3000, epoch: 1 | loss: 0.3070272
+	speed: 3.6895s/iter; left time: 3905693.1002s
+	iters: 3100, epoch: 1 | loss: 0.3043382
+	speed: 3.6962s/iter; left time: 3912457.3282s
+	iters: 3200, epoch: 1 | loss: 0.2950564
+	speed: 3.7683s/iter; left time: 3988419.6553s
+	iters: 3300, epoch: 1 | loss: 0.2950040
+	speed: 3.7845s/iter; left time: 4005187.8257s
+	iters: 3400, epoch: 1 | loss: 0.2993675
+	speed: 3.7090s/iter; left time: 3924848.9739s
+	iters: 3500, epoch: 1 | loss: 0.2971958
+	speed: 3.7487s/iter; left time: 3966543.0662s
+	iters: 3600, epoch: 1 | loss: 0.2986879
+	speed: 3.6891s/iter; left time: 3903033.6731s
+	iters: 3700, epoch: 1 | loss: 0.2934798
+	speed: 3.6648s/iter; left time: 3876983.3295s
+	iters: 3800, epoch: 1 | loss: 0.2928599
+	speed: 3.7012s/iter; left time: 3915162.6783s
+	iters: 3900, epoch: 1 | loss: 0.2960407
+	speed: 3.6913s/iter; left time: 3904318.5617s
+	iters: 4000, epoch: 1 | loss: 0.2910984
+	speed: 3.7896s/iter; left time: 4007934.2348s
+	iters: 4100, epoch: 1 | loss: 0.2936886
+	speed: 3.7184s/iter; left time: 3932262.1632s
+	iters: 4200, epoch: 1 | loss: 0.2951801
+	speed: 3.6979s/iter; left time: 3910129.2092s
+	iters: 4300, epoch: 1 | loss: 0.2883290
+	speed: 3.6919s/iter; left time: 3903466.5628s
+	iters: 4400, epoch: 1 | loss: 0.2926665
+	speed: 3.6913s/iter; left time: 3902443.7563s
+	iters: 4500, epoch: 1 | loss: 0.2949125
+	speed: 3.6924s/iter; left time: 3903197.9379s
+	iters: 4600, epoch: 1 | loss: 0.2920680
+	speed: 3.6957s/iter; left time: 3906349.8125s
+	iters: 4700, epoch: 1 | loss: 0.2921773
+	speed: 3.8938s/iter; left time: 4115413.3716s
+	iters: 4800, epoch: 1 | loss: 0.2900682
+	speed: 3.7355s/iter; left time: 3947681.7853s
+	iters: 4900, epoch: 1 | loss: 0.2913757
+	speed: 3.7546s/iter; left time: 3967451.2629s
+	iters: 5000, epoch: 1 | loss: 0.2975379
+	speed: 3.8344s/iter; left time: 4051391.1835s
+	iters: 5100, epoch: 1 | loss: 0.2933802
+	speed: 3.7353s/iter; left time: 3946355.2656s
+	iters: 5200, epoch: 1 | loss: 0.2874824
+	speed: 3.6946s/iter; left time: 3903011.2227s
+	iters: 5300, epoch: 1 | loss: 0.2839684
+	speed: 3.6972s/iter; left time: 3905354.0957s
+	iters: 5400, epoch: 1 | loss: 0.2875697
+	speed: 3.7710s/iter; left time: 3982937.4602s
+	iters: 5500, epoch: 1 | loss: 0.2891726
+	speed: 3.7200s/iter; left time: 3928676.0221s
+	iters: 5600, epoch: 1 | loss: 0.2844953
+	speed: 3.6936s/iter; left time: 3900471.2097s
+	iters: 5700, epoch: 1 | loss: 0.2872808
+	speed: 3.6833s/iter; left time: 3889171.7102s
+	iters: 5800, epoch: 1 | loss: 0.2853401
+	speed: 3.6922s/iter; left time: 3898196.4435s
+	iters: 5900, epoch: 1 | loss: 0.2800465
+	speed: 3.7011s/iter; left time: 3907250.8295s
+	iters: 6000, epoch: 1 | loss: 0.2843267
+	speed: 3.6956s/iter; left time: 3901125.7759s
+	iters: 6100, epoch: 1 | loss: 0.2904320
+	speed: 3.8405s/iter; left time: 4053647.1685s
+	iters: 6200, epoch: 1 | loss: 0.2814723
+	speed: 3.9599s/iter; left time: 4179244.4419s
+	iters: 6300, epoch: 1 | loss: 0.2823096
+	speed: 3.7013s/iter; left time: 3906014.9320s
+	iters: 6400, epoch: 1 | loss: 0.2860051
+	speed: 3.6924s/iter; left time: 3896229.9513s
+	iters: 6500, epoch: 1 | loss: 0.2891865
+	speed: 3.6954s/iter; left time: 3898972.1577s
+	iters: 6600, epoch: 1 | loss: 0.2796355
+	speed: 3.6936s/iter; left time: 3896713.3892s
+	iters: 6700, epoch: 1 | loss: 0.2829419
+	speed: 3.6998s/iter; left time: 3902958.3939s
+	iters: 6800, epoch: 1 | loss: 0.2769304
+	speed: 3.6926s/iter; left time: 3894938.5039s
+	iters: 6900, epoch: 1 | loss: 0.2847911
+	speed: 3.7731s/iter; left time: 3979440.8761s
+	iters: 7000, epoch: 1 | loss: 0.2879665
+	speed: 3.6901s/iter; left time: 3891572.6324s
+	iters: 7100, epoch: 1 | loss: 0.2822958
+	speed: 3.7445s/iter; left time: 3948600.4832s
+	iters: 7200, epoch: 1 | loss: 0.2733976
+	speed: 3.6976s/iter; left time: 3898757.0818s
+	iters: 7300, epoch: 1 | loss: 0.2789285
+	speed: 3.8394s/iter; left time: 4047876.6265s
+	iters: 7400, epoch: 1 | loss: 0.2823755
+	speed: 3.6998s/iter; left time: 3900334.5013s
+	iters: 7500, epoch: 1 | loss: 0.2745356
+	speed: 3.7015s/iter; left time: 3901758.4036s
+	iters: 7600, epoch: 1 | loss: 0.2843300
+	speed: 3.7840s/iter; left time: 3988341.1043s
+	iters: 7700, epoch: 1 | loss: 0.2743371
+	speed: 3.7032s/iter; left time: 3902810.2455s
+	iters: 7800, epoch: 1 | loss: 0.2828439
+	speed: 3.7450s/iter; left time: 3946441.1815s
+	iters: 7900, epoch: 1 | loss: 0.2791187
+	speed: 3.7056s/iter; left time: 3904594.6436s
+	iters: 8000, epoch: 1 | loss: 0.2789202
+	speed: 3.7189s/iter; left time: 3918190.5270s
+	iters: 8100, epoch: 1 | loss: 0.2758663
+	speed: 3.8757s/iter; left time: 4083096.4417s
+	iters: 8200, epoch: 1 | loss: 0.2811491
+	speed: 3.6998s/iter; left time: 3897324.8770s
+	iters: 8300, epoch: 1 | loss: 0.2784457
+	speed: 3.6947s/iter; left time: 3891615.0626s
+	iters: 8400, epoch: 1 | loss: 0.2782102
+	speed: 3.8036s/iter; left time: 4005978.2984s
+	iters: 8500, epoch: 1 | loss: 0.2691441
+	speed: 3.6959s/iter; left time: 3892186.4409s
+	iters: 8600, epoch: 1 | loss: 0.2730071
+	speed: 3.6949s/iter; left time: 3890762.9166s
+	iters: 8700, epoch: 1 | loss: 0.2737086
+	speed: 3.6978s/iter; left time: 3893424.2886s
+	iters: 8800, epoch: 1 | loss: 0.2705823
+	speed: 3.6936s/iter; left time: 3888639.8992s
+	iters: 8900, epoch: 1 | loss: 0.2710681
+	speed: 3.7002s/iter; left time: 3895161.9091s
+	iters: 9000, epoch: 1 | loss: 0.2764768
+	speed: 3.6972s/iter; left time: 3891649.6451s
+	iters: 9100, epoch: 1 | loss: 0.2743682
+	speed: 3.7679s/iter; left time: 3965761.6383s
+	iters: 9200, epoch: 1 | loss: 0.2735265
+	speed: 3.7090s/iter; left time: 3903348.4425s
+	iters: 9300, epoch: 1 | loss: 0.2701555
+	speed: 3.7077s/iter; left time: 3901626.5007s
+	iters: 9400, epoch: 1 | loss: 0.2765073
+	speed: 3.7010s/iter; left time: 3894192.5911s
+	iters: 9500, epoch: 1 | loss: 0.2688402
+	speed: 3.6994s/iter; left time: 3892146.7193s
+[2025-12-09T01:21:14.009] error: *** JOB 8276700 ON cn-c028 CANCELLED AT 2025-12-09T01:21:14 DUE TO TIME LIMIT ***
+
+======== GPU REPORT ========
+
+==============NVSMI LOG==============
+
+Timestamp                                 : Tue Dec  9 01:21:14 2025
+Driver Version                            : 580.95.05
+CUDA Version                              : 13.0
+
+Attached GPUs                             : 4
+GPU 00000000:27:00.0
+    Accounting Mode                       : Enabled
+    Accounting Mode Buffer Size           : 4000
+    Accounted Processes
+        Process ID                        : 3690664
+            GPU Utilization               : 73 %
+            Memory Utilization            : 37 %
+            Max memory usage              : 45036 MiB
+            Time                          : 0 ms
+            Is Running                    : 1
+
+GPU 00000000:43:00.0
+    Accounting Mode                       : Enabled
+    Accounting Mode Buffer Size           : 4000
+    Accounted Processes
+        Process ID                        : 3690664
+            GPU Utilization               : 92 %
+            Memory Utilization            : 72 %
+            Max memory usage              : 44438 MiB
+            Time                          : 0 ms
+            Is Running                    : 1
+
+GPU 00000000:A3:00.0
+    Accounting Mode                       : Enabled
+    Accounting Mode Buffer Size           : 4000
+    Accounted Processes
+        Process ID                        : 3690664
+            GPU Utilization               : 92 %
+            Memory Utilization            : 72 %
+            Max memory usage              : 44442 MiB
+            Time                          : 0 ms
+            Is Running                    : 1
+
+GPU 00000000:A4:00.0
+    Accounting Mode                       : Enabled
+    Accounting Mode Buffer Size           : 4000
+    Accounted Processes
+        Process ID                        : 3690664
+            GPU Utilization               : 92 %
+            Memory Utilization            : 72 %
+            Max memory usage              : 44458 MiB
+            Time                          : 0 ms
+            Is Running                    : 1
+
+Tue Dec  9 01:21:14 2025       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 580.95.05              Driver Version: 580.95.05      CUDA Version: 13.0     |
++-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  Quadro RTX 8000                On  |   00000000:27:00.0 Off |                    0 |
+| 80%   86C    P2            292W /  260W |   43998MiB /  46080MiB |     75%      Default |
+|                                         |                        |                  N/A |
++-----------------------------------------+------------------------+----------------------+
+|   1  Quadro RTX 8000                On  |   00000000:43:00.0 Off |                    0 |
+| 36%   62C    P2            270W /  260W |   44474MiB /  46080MiB |     58%      Default |
+|                                         |                        |                  N/A |
++-----------------------------------------+------------------------+----------------------+
+|   2  Quadro RTX 8000                On  |   00000000:A3:00.0 Off |                    0 |
+| 33%   50C    P2            262W /  260W |   44480MiB /  46080MiB |    100%      Default |
+|                                         |                        |                  N/A |
++-----------------------------------------+------------------------+----------------------+
+|   3  Quadro RTX 8000                On  |   00000000:A4:00.0 Off |                    0 |
+| 33%   52C    P2            251W /  260W |   44496MiB /  46080MiB |     68%      Default |
+|                                         |                        |                  N/A |
++-----------------------------------------+------------------------+----------------------+
+
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|    0   N/A  N/A         3690664      C   python                                43960MiB |
+|    1   N/A  N/A         3690664      C   python                                44438MiB |
+|    2   N/A  N/A         3690664      C   python                                44442MiB |
+|    3   N/A  N/A         3690664      C   python                                44458MiB |
++-----------------------------------------------------------------------------------------+

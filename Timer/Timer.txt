@@ -1,0 +1,870 @@
+Date:     Wed Dec 10 01:45:20 PM EST 2025
+Hostname: cn-b001.server.mila.quebec
+[=== Module python/3.10 loaded ===]
+[=== Module cudatoolkit/11.8 loaded ===]
+bash: /home/mila/s/senthils/miniconda3/envs/openLTM/lib/libtinfo.so.6: no version information available (required by bash)
+>>>>>>>start training : forecast_utsd_timer_Utsd_Npy_sl2880_it96_ot96_lr5e-05_bt8192_wd0_el8_dm1024_dff2048_nh8_cosTrue_test_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+Total number of windows in merged dataset:  869661816
+train 869661816
+Total number of windows in merged dataset:  55469985
+val 55469985
+Total number of windows in merged dataset:  55273342
+test 55273342
+next learning rate is 5e-05
+	iters: 100, epoch: 1 | loss: 0.4142016
+	speed: 4.1775s/iter; left time: 4434443.9236s
+	iters: 200, epoch: 1 | loss: 0.3854869
+	speed: 2.5435s/iter; left time: 2699666.8478s
+	iters: 300, epoch: 1 | loss: 0.3733783
+	speed: 2.5205s/iter; left time: 2674966.3086s
+	iters: 400, epoch: 1 | loss: 0.3595974
+	speed: 2.4023s/iter; left time: 2549316.7866s
+	iters: 500, epoch: 1 | loss: 0.3457734
+	speed: 2.5198s/iter; left time: 2673730.6919s
+Saved step checkpoint: ./checkpoints/forecast_utsd_timer_Utsd_Npy_sl2880_it96_ot96_lr5e-05_bt8192_wd0_el8_dm1024_dff2048_nh8_cosTrue_test_0/checkpoint_step_500.pth
+	iters: 600, epoch: 1 | loss: 0.3482991
+	speed: 2.5242s/iter; left time: 2678229.4237s
+	iters: 700, epoch: 1 | loss: 0.3429050
+	speed: 2.5332s/iter; left time: 2687504.6741s
+	iters: 800, epoch: 1 | loss: 0.3397041
+	speed: 2.3885s/iter; left time: 2533714.0067s
+	iters: 900, epoch: 1 | loss: 0.3340334
+	speed: 2.3934s/iter; left time: 2538647.7713s
+	iters: 1000, epoch: 1 | loss: 0.3350935
+	speed: 2.5211s/iter; left time: 2673863.6158s
+Saved step checkpoint: ./checkpoints/forecast_utsd_timer_Utsd_Npy_sl2880_it96_ot96_lr5e-05_bt8192_wd0_el8_dm1024_dff2048_nh8_cosTrue_test_0/checkpoint_step_1000.pth
+	iters: 1100, epoch: 1 | loss: 0.3362842
+	speed: 2.4927s/iter; left time: 2643485.3837s
+	iters: 1200, epoch: 1 | loss: 0.3306486
+	speed: 2.3970s/iter; left time: 2541813.8845s
+	iters: 1300, epoch: 1 | loss: 0.3290038
+	speed: 2.3960s/iter; left time: 2540489.5827s
+	iters: 1400, epoch: 1 | loss: 0.3198634
+	speed: 2.5183s/iter; left time: 2669897.2414s
+	iters: 1500, epoch: 1 | loss: 0.3145820
+	speed: 2.3912s/iter; left time: 2534922.1767s
+Saved step checkpoint: ./checkpoints/forecast_utsd_timer_Utsd_Npy_sl2880_it96_ot96_lr5e-05_bt8192_wd0_el8_dm1024_dff2048_nh8_cosTrue_test_0/checkpoint_step_1500.pth
+	iters: 1600, epoch: 1 | loss: 0.3137985
+	speed: 2.5122s/iter; left time: 2662942.5997s
+	iters: 1700, epoch: 1 | loss: 0.3210550
+	speed: 2.3943s/iter; left time: 2537753.0781s
+	iters: 1800, epoch: 1 | loss: 0.3160106
+	speed: 2.5168s/iter; left time: 2667257.3752s
+	iters: 1900, epoch: 1 | loss: 0.3140751
+	speed: 2.3979s/iter; left time: 2541043.5055s
+	iters: 2000, epoch: 1 | loss: 0.3181947
+	speed: 2.4068s/iter; left time: 2550210.4880s
+Saved step checkpoint: ./checkpoints/forecast_utsd_timer_Utsd_Npy_sl2880_it96_ot96_lr5e-05_bt8192_wd0_el8_dm1024_dff2048_nh8_cosTrue_test_0/checkpoint_step_2000.pth
+	iters: 2100, epoch: 1 | loss: 0.3128490
+	speed: 2.5581s/iter; left time: 2710320.5766s
+	iters: 2200, epoch: 1 | loss: 0.3071755
+	speed: 2.4232s/iter; left time: 2567091.9792s
+	iters: 2300, epoch: 1 | loss: 0.3203756
+	speed: 2.5707s/iter; left time: 2723135.0661s
+	iters: 2400, epoch: 1 | loss: 0.3126275
+	speed: 2.4195s/iter; left time: 2562717.5063s
+	iters: 2500, epoch: 1 | loss: 0.3062189
+	speed: 2.4204s/iter; left time: 2563453.2364s
+Saved step checkpoint: ./checkpoints/forecast_utsd_timer_Utsd_Npy_sl2880_it96_ot96_lr5e-05_bt8192_wd0_el8_dm1024_dff2048_nh8_cosTrue_test_0/checkpoint_step_2500.pth
+	iters: 2600, epoch: 1 | loss: 0.3101883
+	speed: 2.5328s/iter; left time: 2682224.2321s
+	iters: 2700, epoch: 1 | loss: 0.3090439
+	speed: 2.4221s/iter; left time: 2564771.3051s
+	iters: 2800, epoch: 1 | loss: 0.2985747
+	speed: 2.5550s/iter; left time: 2705247.7759s
+	iters: 2900, epoch: 1 | loss: 0.3055361
+	speed: 2.4199s/iter; left time: 2561961.3685s
+	iters: 3000, epoch: 1 | loss: 0.3061145
+	speed: 2.4224s/iter; left time: 2564327.2567s
+Saved step checkpoint: ./checkpoints/forecast_utsd_timer_Utsd_Npy_sl2880_it96_ot96_lr5e-05_bt8192_wd0_el8_dm1024_dff2048_nh8_cosTrue_test_0/checkpoint_step_3000.pth
+	iters: 3100, epoch: 1 | loss: 0.3044007
+	speed: 2.5419s/iter; left time: 2690617.0881s
+	iters: 3200, epoch: 1 | loss: 0.2952375
+	speed: 2.4215s/iter; left time: 2562954.1807s
+	iters: 3300, epoch: 1 | loss: 0.2946663
+	speed: 2.5591s/iter; left time: 2708285.0401s
+	iters: 3400, epoch: 1 | loss: 0.2995370
+	speed: 2.4131s/iter; left time: 2553592.8038s
+	iters: 3500, epoch: 1 | loss: 0.2968940
+	speed: 2.4194s/iter; left time: 2560006.1670s
+Saved step checkpoint: ./checkpoints/forecast_utsd_timer_Utsd_Npy_sl2880_it96_ot96_lr5e-05_bt8192_wd0_el8_dm1024_dff2048_nh8_cosTrue_test_0/checkpoint_step_3500.pth
+	iters: 3600, epoch: 1 | loss: 0.2985951
+	speed: 2.5413s/iter; left time: 2688720.9096s
+	iters: 3700, epoch: 1 | loss: 0.2934109
+	speed: 2.4215s/iter; left time: 2561730.3686s
+	iters: 3800, epoch: 1 | loss: 0.2926556
+	speed: 2.5474s/iter; left time: 2694611.9859s
+	iters: 3900, epoch: 1 | loss: 0.2957131
+	speed: 2.4203s/iter; left time: 2560000.7078s
+	iters: 4000, epoch: 1 | loss: 0.2911980
+	speed: 2.4193s/iter; left time: 2558670.3764s
+Saved step checkpoint: ./checkpoints/forecast_utsd_timer_Utsd_Npy_sl2880_it96_ot96_lr5e-05_bt8192_wd0_el8_dm1024_dff2048_nh8_cosTrue_test_0/checkpoint_step_4000.pth
+	iters: 4100, epoch: 1 | loss: 0.2939744
+	speed: 2.5446s/iter; left time: 2690886.1972s
+	iters: 4200, epoch: 1 | loss: 0.2951488
+	speed: 2.4192s/iter; left time: 2558018.1229s
+	iters: 4300, epoch: 1 | loss: 0.2889065
+	speed: 2.5445s/iter; left time: 2690344.3109s
+	iters: 4400, epoch: 1 | loss: 0.2929123
+	speed: 2.4198s/iter; left time: 2558172.6698s
+	iters: 4500, epoch: 1 | loss: 0.2953854
+	speed: 2.4217s/iter; left time: 2559990.5506s
+Saved step checkpoint: ./checkpoints/forecast_utsd_timer_Utsd_Npy_sl2880_it96_ot96_lr5e-05_bt8192_wd0_el8_dm1024_dff2048_nh8_cosTrue_test_0/checkpoint_step_4500.pth
+	iters: 4600, epoch: 1 | loss: 0.2925030
+	speed: 2.5267s/iter; left time: 2670763.7887s
+	iters: 4700, epoch: 1 | loss: 0.2927101
+	speed: 2.4045s/iter; left time: 2541359.4706s
+	iters: 4800, epoch: 1 | loss: 0.2902326
+	speed: 2.5349s/iter; left time: 2678912.8202s
+	iters: 4900, epoch: 1 | loss: 0.2913203
+	speed: 2.4179s/iter; left time: 2554968.2084s
+	iters: 5000, epoch: 1 | loss: 0.2976551
+	speed: 2.4189s/iter; left time: 2555820.5840s
+Saved step checkpoint: ./checkpoints/forecast_utsd_timer_Utsd_Npy_sl2880_it96_ot96_lr5e-05_bt8192_wd0_el8_dm1024_dff2048_nh8_cosTrue_test_0/checkpoint_step_5000.pth
+	iters: 5100, epoch: 1 | loss: 0.2931214
+	speed: 2.5415s/iter; left time: 2685090.1993s
+	iters: 5200, epoch: 1 | loss: 0.2875092
+	speed: 2.4187s/iter; left time: 2555097.1120s
+	iters: 5300, epoch: 1 | loss: 0.2840553
+	speed: 2.5399s/iter; left time: 2682930.0679s
+	iters: 5400, epoch: 1 | loss: 0.2873986
+	speed: 2.4207s/iter; left time: 2556726.1912s
+	iters: 5500, epoch: 1 | loss: 0.2892752
+	speed: 2.4022s/iter; left time: 2536992.6285s
+Saved step checkpoint: ./checkpoints/forecast_utsd_timer_Utsd_Npy_sl2880_it96_ot96_lr5e-05_bt8192_wd0_el8_dm1024_dff2048_nh8_cosTrue_test_0/checkpoint_step_5500.pth
+	iters: 5600, epoch: 1 | loss: 0.2841036
+	speed: 2.5204s/iter; left time: 2661574.0926s
+	iters: 5700, epoch: 1 | loss: 0.2871432
+	speed: 2.4028s/iter; left time: 2537067.2692s
+	iters: 5800, epoch: 1 | loss: 0.2849828
+	speed: 2.5299s/iter; left time: 2671038.0675s
+	iters: 5900, epoch: 1 | loss: 0.2797369
+	speed: 2.4010s/iter; left time: 2534756.1694s
+	iters: 6000, epoch: 1 | loss: 0.2847786
+	speed: 2.4020s/iter; left time: 2535554.2392s
+Saved step checkpoint: ./checkpoints/forecast_utsd_timer_Utsd_Npy_sl2880_it96_ot96_lr5e-05_bt8192_wd0_el8_dm1024_dff2048_nh8_cosTrue_test_0/checkpoint_step_6000.pth
+	iters: 6100, epoch: 1 | loss: 0.2903872
+	speed: 2.5327s/iter; left time: 2673244.2784s
+	iters: 6200, epoch: 1 | loss: 0.2815308
+	speed: 2.4228s/iter; left time: 2556977.8415s
+	iters: 6300, epoch: 1 | loss: 0.2821284
+	speed: 2.5420s/iter; left time: 2682587.8334s
+	iters: 6400, epoch: 1 | loss: 0.2856940
+	speed: 2.4209s/iter; left time: 2554535.5239s
+	iters: 6500, epoch: 1 | loss: 0.2891346
+	speed: 2.4150s/iter; left time: 2548091.2959s
+Saved step checkpoint: ./checkpoints/forecast_utsd_timer_Utsd_Npy_sl2880_it96_ot96_lr5e-05_bt8192_wd0_el8_dm1024_dff2048_nh8_cosTrue_test_0/checkpoint_step_6500.pth
+	iters: 6600, epoch: 1 | loss: 0.2796910
+	speed: 2.5454s/iter; left time: 2685410.7029s
+	iters: 6700, epoch: 1 | loss: 0.2826917
+	speed: 2.4183s/iter; left time: 2551054.4744s
+	iters: 6800, epoch: 1 | loss: 0.2769904
+	speed: 2.5411s/iter; left time: 2680404.0606s
+	iters: 6900, epoch: 1 | loss: 0.2850462
+	speed: 2.4202s/iter; left time: 2552554.7934s
+	iters: 7000, epoch: 1 | loss: 0.2877368
+	speed: 2.4185s/iter; left time: 2550516.2805s
+Saved step checkpoint: ./checkpoints/forecast_utsd_timer_Utsd_Npy_sl2880_it96_ot96_lr5e-05_bt8192_wd0_el8_dm1024_dff2048_nh8_cosTrue_test_0/checkpoint_step_7000.pth
+	iters: 7100, epoch: 1 | loss: 0.2822444
+	speed: 2.6410s/iter; left time: 2784930.3368s
+	iters: 7200, epoch: 1 | loss: 0.2734908
+	speed: 2.4129s/iter; left time: 2544149.2073s
+	iters: 7300, epoch: 1 | loss: 0.2789903
+	speed: 2.4202s/iter; left time: 2551566.6567s
+	iters: 7400, epoch: 1 | loss: 0.2821858
+	speed: 2.5472s/iter; left time: 2685311.1914s
+	iters: 7500, epoch: 1 | loss: 0.2748071
+	speed: 2.4232s/iter; left time: 2554315.3458s
+Saved step checkpoint: ./checkpoints/forecast_utsd_timer_Utsd_Npy_sl2880_it96_ot96_lr5e-05_bt8192_wd0_el8_dm1024_dff2048_nh8_cosTrue_test_0/checkpoint_step_7500.pth
+	iters: 7600, epoch: 1 | loss: 0.2844308
+	speed: 2.5367s/iter; left time: 2673670.6697s
+	iters: 7700, epoch: 1 | loss: 0.2746970
+	speed: 2.4212s/iter; left time: 2551675.6964s
+	iters: 7800, epoch: 1 | loss: 0.2828447
+	speed: 2.5453s/iter; left time: 2682286.6504s
+	iters: 7900, epoch: 1 | loss: 0.2791317
+	speed: 2.4264s/iter; left time: 2556668.9057s
+	iters: 8000, epoch: 1 | loss: 0.2790522
+	speed: 2.4262s/iter; left time: 2556222.3562s
+Saved step checkpoint: ./checkpoints/forecast_utsd_timer_Utsd_Npy_sl2880_it96_ot96_lr5e-05_bt8192_wd0_el8_dm1024_dff2048_nh8_cosTrue_test_0/checkpoint_step_8000.pth
+	iters: 8100, epoch: 1 | loss: 0.2760161
+	speed: 2.5385s/iter; left time: 2674349.5065s
+	iters: 8200, epoch: 1 | loss: 0.2810822
+	speed: 2.4191s/iter; left time: 2548303.4290s
+	iters: 8300, epoch: 1 | loss: 0.2800851
+	speed: 2.5402s/iter; left time: 2675564.9167s
+	iters: 8400, epoch: 1 | loss: 0.2783091
+	speed: 2.4140s/iter; left time: 2542389.7605s
+	iters: 8500, epoch: 1 | loss: 0.2692760
+	speed: 2.4174s/iter; left time: 2545725.0726s
+Saved step checkpoint: ./checkpoints/forecast_utsd_timer_Utsd_Npy_sl2880_it96_ot96_lr5e-05_bt8192_wd0_el8_dm1024_dff2048_nh8_cosTrue_test_0/checkpoint_step_8500.pth
+	iters: 8600, epoch: 1 | loss: 0.2727401
+	speed: 2.5411s/iter; left time: 2675810.7457s
+	iters: 8700, epoch: 1 | loss: 0.2738825
+	speed: 2.4127s/iter; left time: 2540360.8468s
+	iters: 8800, epoch: 1 | loss: 0.2709638
+	speed: 2.5449s/iter; left time: 2679243.5257s
+	iters: 8900, epoch: 1 | loss: 0.2712195
+	speed: 2.4226s/iter; left time: 2550242.8326s
+	iters: 9000, epoch: 1 | loss: 0.2763887
+	speed: 2.4256s/iter; left time: 2553201.2017s
+Saved step checkpoint: ./checkpoints/forecast_utsd_timer_Utsd_Npy_sl2880_it96_ot96_lr5e-05_bt8192_wd0_el8_dm1024_dff2048_nh8_cosTrue_test_0/checkpoint_step_9000.pth
+	iters: 9100, epoch: 1 | loss: 0.2742561
+	speed: 2.5359s/iter; left time: 2669056.4515s
+	iters: 9200, epoch: 1 | loss: 0.2735417
+	speed: 2.4251s/iter; left time: 2552229.5461s
+	iters: 9300, epoch: 1 | loss: 0.2711690
+	speed: 2.5506s/iter; left time: 2683947.4754s
+	iters: 9400, epoch: 1 | loss: 0.2761041
+	speed: 2.4217s/iter; left time: 2548141.4656s
+	iters: 9500, epoch: 1 | loss: 0.2685296
+	speed: 2.4212s/iter; left time: 2547297.0453s
+Saved step checkpoint: ./checkpoints/forecast_utsd_timer_Utsd_Npy_sl2880_it96_ot96_lr5e-05_bt8192_wd0_el8_dm1024_dff2048_nh8_cosTrue_test_0/checkpoint_step_9500.pth
+	iters: 9600, epoch: 1 | loss: 0.2668587
+	speed: 2.5351s/iter; left time: 2666966.2930s
+	iters: 9700, epoch: 1 | loss: 0.2730984
+	speed: 2.4225s/iter; left time: 2548259.9115s
+	iters: 9800, epoch: 1 | loss: 0.2690555
+	speed: 2.5472s/iter; left time: 2679156.7182s
+	iters: 9900, epoch: 1 | loss: 0.2704846
+	speed: 2.4180s/iter; left time: 2542988.6376s
+	iters: 10000, epoch: 1 | loss: 0.2743063
+	speed: 2.4018s/iter; left time: 2525699.8631s
+Saved step checkpoint: ./checkpoints/forecast_utsd_timer_Utsd_Npy_sl2880_it96_ot96_lr5e-05_bt8192_wd0_el8_dm1024_dff2048_nh8_cosTrue_test_0/checkpoint_step_10000.pth
+	iters: 10100, epoch: 1 | loss: 0.2717450
+	speed: 2.5298s/iter; left time: 2660124.6040s
+	iters: 10200, epoch: 1 | loss: 0.2689834
+	speed: 2.3986s/iter; left time: 2521878.7260s
+	iters: 10300, epoch: 1 | loss: 0.2710063
+	speed: 2.5253s/iter; left time: 2654834.4110s
+	iters: 10400, epoch: 1 | loss: 0.2679878
+	speed: 2.3976s/iter; left time: 2520321.9336s
+	iters: 10500, epoch: 1 | loss: 0.2727425
+	speed: 2.3994s/iter; left time: 2521993.1729s
+Saved step checkpoint: ./checkpoints/forecast_utsd_timer_Utsd_Npy_sl2880_it96_ot96_lr5e-05_bt8192_wd0_el8_dm1024_dff2048_nh8_cosTrue_test_0/checkpoint_step_10500.pth
+	iters: 10600, epoch: 1 | loss: 0.2731799
+	speed: 2.5414s/iter; left time: 2670990.4784s
+	iters: 10700, epoch: 1 | loss: 0.2727769
+	speed: 2.3966s/iter; left time: 2518538.0290s
+	iters: 10800, epoch: 1 | loss: 0.2698737
+	speed: 2.5210s/iter; left time: 2649110.1765s
+	iters: 10900, epoch: 1 | loss: 0.2648088
+	speed: 2.3961s/iter; left time: 2517611.6270s
+	iters: 11000, epoch: 1 | loss: 0.2651139
+	speed: 2.3999s/iter; left time: 2521385.6531s
+Saved step checkpoint: ./checkpoints/forecast_utsd_timer_Utsd_Npy_sl2880_it96_ot96_lr5e-05_bt8192_wd0_el8_dm1024_dff2048_nh8_cosTrue_test_0/checkpoint_step_11000.pth
+	iters: 11100, epoch: 1 | loss: 0.2767406
+	speed: 2.5085s/iter; left time: 2635190.2881s
+	iters: 11200, epoch: 1 | loss: 0.2712581
+	speed: 2.3967s/iter; left time: 2517493.9989s
+	iters: 11300, epoch: 1 | loss: 0.2655877
+	speed: 2.7228s/iter; left time: 2859713.5194s
+	iters: 11400, epoch: 1 | loss: 0.2661693
+	speed: 2.3997s/iter; left time: 2520172.5731s
+	iters: 11500, epoch: 1 | loss: 0.2707498
+	speed: 2.3968s/iter; left time: 2516839.7035s
+Saved step checkpoint: ./checkpoints/forecast_utsd_timer_Utsd_Npy_sl2880_it96_ot96_lr5e-05_bt8192_wd0_el8_dm1024_dff2048_nh8_cosTrue_test_0/checkpoint_step_11500.pth
+	iters: 11600, epoch: 1 | loss: 0.2684882
+	speed: 2.5493s/iter; left time: 2676816.3312s
+	iters: 11700, epoch: 1 | loss: 0.2691107
+	speed: 2.3975s/iter; left time: 2517127.8426s
+	iters: 11800, epoch: 1 | loss: 0.2664768
+	speed: 2.3984s/iter; left time: 2517871.1657s
+	iters: 11900, epoch: 1 | loss: 0.2611962
+	speed: 2.5575s/iter; left time: 2684573.1852s
+	iters: 12000, epoch: 1 | loss: 0.2604113
+	speed: 2.7093s/iter; left time: 2843682.0481s
+Saved step checkpoint: ./checkpoints/forecast_utsd_timer_Utsd_Npy_sl2880_it96_ot96_lr5e-05_bt8192_wd0_el8_dm1024_dff2048_nh8_cosTrue_test_0/checkpoint_step_12000.pth
+	iters: 12100, epoch: 1 | loss: 0.2712282
+	speed: 2.3993s/iter; left time: 2518047.1368s
+	iters: 12200, epoch: 1 | loss: 0.2655152
+	speed: 2.3962s/iter; left time: 2514532.5244s
+	iters: 12300, epoch: 1 | loss: 0.2637014
+	speed: 2.5318s/iter; left time: 2656573.3951s
+	iters: 12400, epoch: 1 | loss: 0.2674099
+	speed: 2.4042s/iter; left time: 2522537.9691s
+	iters: 12500, epoch: 1 | loss: 0.2679692
+	speed: 2.5197s/iter; left time: 2643417.3738s
+Saved step checkpoint: ./checkpoints/forecast_utsd_timer_Utsd_Npy_sl2880_it96_ot96_lr5e-05_bt8192_wd0_el8_dm1024_dff2048_nh8_cosTrue_test_0/checkpoint_step_12500.pth
+	iters: 12600, epoch: 1 | loss: 0.2706861
+	speed: 2.5125s/iter; left time: 2635660.2958s
+	iters: 12700, epoch: 1 | loss: 0.2662675
+	speed: 2.3923s/iter; left time: 2509255.1855s
+	iters: 12800, epoch: 1 | loss: 0.2621207
+	speed: 2.3952s/iter; left time: 2512067.0455s
+	iters: 12900, epoch: 1 | loss: 0.2638749
+	speed: 2.5230s/iter; left time: 2645878.3482s
+	iters: 13000, epoch: 1 | loss: 0.2684158
+	speed: 2.3982s/iter; left time: 2514712.7190s
+Saved step checkpoint: ./checkpoints/forecast_utsd_timer_Utsd_Npy_sl2880_it96_ot96_lr5e-05_bt8192_wd0_el8_dm1024_dff2048_nh8_cosTrue_test_0/checkpoint_step_13000.pth
+	iters: 13100, epoch: 1 | loss: 0.2652354
+	speed: 2.5215s/iter; left time: 2643844.9364s
+	iters: 13200, epoch: 1 | loss: 0.2694910
+	speed: 2.3971s/iter; left time: 2513079.2496s
+	iters: 13300, epoch: 1 | loss: 0.2613323
+	speed: 2.5247s/iter; left time: 2646616.2702s
+	iters: 13400, epoch: 1 | loss: 0.2711650
+	speed: 2.3998s/iter; left time: 2515511.5061s
+	iters: 13500, epoch: 1 | loss: 0.2625450
+	speed: 2.3991s/iter; left time: 2514467.3294s
+Saved step checkpoint: ./checkpoints/forecast_utsd_timer_Utsd_Npy_sl2880_it96_ot96_lr5e-05_bt8192_wd0_el8_dm1024_dff2048_nh8_cosTrue_test_0/checkpoint_step_13500.pth
+	iters: 13600, epoch: 1 | loss: 0.2561973
+	speed: 2.5232s/iter; left time: 2644301.5705s
+	iters: 13700, epoch: 1 | loss: 0.2597264
+	speed: 2.3979s/iter; left time: 2512713.5936s
+	iters: 13800, epoch: 1 | loss: 0.2651724
+	speed: 2.5246s/iter; left time: 2645330.3091s
+	iters: 13900, epoch: 1 | loss: 0.2702906
+	speed: 2.4032s/iter; left time: 2517883.3472s
+	iters: 14000, epoch: 1 | loss: 0.2580873
+	speed: 2.3989s/iter; left time: 2513084.1405s
+Saved step checkpoint: ./checkpoints/forecast_utsd_timer_Utsd_Npy_sl2880_it96_ot96_lr5e-05_bt8192_wd0_el8_dm1024_dff2048_nh8_cosTrue_test_0/checkpoint_step_14000.pth
+	iters: 14100, epoch: 1 | loss: 0.2697668
+	speed: 2.5171s/iter; left time: 2636674.7747s
+	iters: 14200, epoch: 1 | loss: 0.2667616
+	speed: 2.4003s/iter; left time: 2514043.7119s
+	iters: 14300, epoch: 1 | loss: 0.2622970
+	speed: 2.5212s/iter; left time: 2640482.5368s
+	iters: 14400, epoch: 1 | loss: 0.2595007
+	speed: 2.3942s/iter; left time: 2507256.7968s
+	iters: 14500, epoch: 1 | loss: 0.2658104
+	speed: 2.4027s/iter; left time: 2515861.6012s
+Saved step checkpoint: ./checkpoints/forecast_utsd_timer_Utsd_Npy_sl2880_it96_ot96_lr5e-05_bt8192_wd0_el8_dm1024_dff2048_nh8_cosTrue_test_0/checkpoint_step_14500.pth
+	iters: 14600, epoch: 1 | loss: 0.2613050
+	speed: 2.5269s/iter; left time: 2645619.1867s
+	iters: 14700, epoch: 1 | loss: 0.2603058
+	speed: 2.4005s/iter; left time: 2513045.1027s
+	iters: 14800, epoch: 1 | loss: 0.2632053
+	speed: 2.5171s/iter; left time: 2634870.0955s
+	iters: 14900, epoch: 1 | loss: 0.2580118
+	speed: 2.3965s/iter; left time: 2508388.8888s
+	iters: 15000, epoch: 1 | loss: 0.2677545
+	speed: 2.3993s/iter; left time: 2511146.0590s
+Saved step checkpoint: ./checkpoints/forecast_utsd_timer_Utsd_Npy_sl2880_it96_ot96_lr5e-05_bt8192_wd0_el8_dm1024_dff2048_nh8_cosTrue_test_0/checkpoint_step_15000.pth
+	iters: 15100, epoch: 1 | loss: 0.2644074
+	speed: 2.5155s/iter; left time: 2632481.0620s
+	iters: 15200, epoch: 1 | loss: 0.2603206
+	speed: 2.4015s/iter; left time: 2512886.1428s
+	iters: 15300, epoch: 1 | loss: 0.2605331
+	speed: 2.5214s/iter; left time: 2638185.1965s
+	iters: 15400, epoch: 1 | loss: 0.2592010
+	speed: 2.4019s/iter; left time: 2512914.9858s
+	iters: 15500, epoch: 1 | loss: 0.2646290
+	speed: 2.4117s/iter; left time: 2522856.1806s
+Saved step checkpoint: ./checkpoints/forecast_utsd_timer_Utsd_Npy_sl2880_it96_ot96_lr5e-05_bt8192_wd0_el8_dm1024_dff2048_nh8_cosTrue_test_0/checkpoint_step_15500.pth
+	iters: 15600, epoch: 1 | loss: 0.2623172
+	speed: 2.5299s/iter; left time: 2646326.0640s
+	iters: 15700, epoch: 1 | loss: 0.2611057
+	speed: 2.4188s/iter; left time: 2529877.2398s
+	iters: 15800, epoch: 1 | loss: 0.2526706
+	speed: 2.5442s/iter; left time: 2660709.2294s
+	iters: 15900, epoch: 1 | loss: 0.2526246
+	speed: 2.4154s/iter; left time: 2525771.5154s
+	iters: 16000, epoch: 1 | loss: 0.2607037
+	speed: 2.4169s/iter; left time: 2527082.2975s
+Saved step checkpoint: ./checkpoints/forecast_utsd_timer_Utsd_Npy_sl2880_it96_ot96_lr5e-05_bt8192_wd0_el8_dm1024_dff2048_nh8_cosTrue_test_0/checkpoint_step_16000.pth
+	iters: 16100, epoch: 1 | loss: 0.2593475
+	speed: 2.5727s/iter; left time: 2689790.8879s
+	iters: 16200, epoch: 1 | loss: 0.2570647
+	speed: 2.4256s/iter; left time: 2535739.4401s
+	iters: 16300, epoch: 1 | loss: 0.2575266
+	speed: 2.5491s/iter; left time: 2664535.9903s
+	iters: 16400, epoch: 1 | loss: 0.2588615
+	speed: 2.4204s/iter; left time: 2529844.2192s
+	iters: 16500, epoch: 1 | loss: 0.2575306
+	speed: 2.4207s/iter; left time: 2529883.8588s
+Saved step checkpoint: ./checkpoints/forecast_utsd_timer_Utsd_Npy_sl2880_it96_ot96_lr5e-05_bt8192_wd0_el8_dm1024_dff2048_nh8_cosTrue_test_0/checkpoint_step_16500.pth
+	iters: 16600, epoch: 1 | loss: 0.2549125
+	speed: 2.5382s/iter; left time: 2652396.7672s
+	iters: 16700, epoch: 1 | loss: 0.2580893
+	speed: 2.4200s/iter; left time: 2528701.1094s
+	iters: 16800, epoch: 1 | loss: 0.2655171
+	speed: 2.5428s/iter; left time: 2656676.7263s
+	iters: 16900, epoch: 1 | loss: 0.2570620
+	speed: 2.4244s/iter; left time: 2532745.0864s
+	iters: 17000, epoch: 1 | loss: 0.2583271
+	speed: 2.4200s/iter; left time: 2527933.8073s
+Saved step checkpoint: ./checkpoints/forecast_utsd_timer_Utsd_Npy_sl2880_it96_ot96_lr5e-05_bt8192_wd0_el8_dm1024_dff2048_nh8_cosTrue_test_0/checkpoint_step_17000.pth
+	iters: 17100, epoch: 1 | loss: 0.2536333
+	speed: 2.5360s/iter; left time: 2648824.7935s
+	iters: 17200, epoch: 1 | loss: 0.2623584
+	speed: 2.4179s/iter; left time: 2525206.2212s
+	iters: 17300, epoch: 1 | loss: 0.2555325
+	speed: 2.5480s/iter; left time: 2660873.9729s
+	iters: 17400, epoch: 1 | loss: 0.2600619
+	speed: 2.4177s/iter; left time: 2524601.1152s
+	iters: 17500, epoch: 1 | loss: 0.2584081
+	speed: 2.4182s/iter; left time: 2524879.3031s
+Saved step checkpoint: ./checkpoints/forecast_utsd_timer_Utsd_Npy_sl2880_it96_ot96_lr5e-05_bt8192_wd0_el8_dm1024_dff2048_nh8_cosTrue_test_0/checkpoint_step_17500.pth
+	iters: 17600, epoch: 1 | loss: 0.2496285
+	speed: 2.5350s/iter; left time: 2646592.9765s
+	iters: 17700, epoch: 1 | loss: 0.2536990
+	speed: 2.4153s/iter; left time: 2521289.3777s
+	iters: 17800, epoch: 1 | loss: 0.2606873
+	speed: 2.5418s/iter; left time: 2653152.6693s
+	iters: 17900, epoch: 1 | loss: 0.2611555
+	speed: 2.4229s/iter; left time: 2528772.2410s
+	iters: 18000, epoch: 1 | loss: 0.2477374
+	speed: 2.4151s/iter; left time: 2520376.9536s
+Saved step checkpoint: ./checkpoints/forecast_utsd_timer_Utsd_Npy_sl2880_it96_ot96_lr5e-05_bt8192_wd0_el8_dm1024_dff2048_nh8_cosTrue_test_0/checkpoint_step_18000.pth
+	iters: 18100, epoch: 1 | loss: 0.2600261
+	speed: 2.5454s/iter; left time: 2656145.7236s
+	iters: 18200, epoch: 1 | loss: 0.2612731
+	speed: 2.4065s/iter; left time: 2510995.9250s
+	iters: 18300, epoch: 1 | loss: 0.2508566
+	speed: 2.5232s/iter; left time: 2632429.7830s
+	iters: 18400, epoch: 1 | loss: 0.2573124
+	speed: 2.4070s/iter; left time: 2510958.5304s
+	iters: 18500, epoch: 1 | loss: 0.2609834
+	speed: 2.3982s/iter; left time: 2501572.7111s
+Saved step checkpoint: ./checkpoints/forecast_utsd_timer_Utsd_Npy_sl2880_it96_ot96_lr5e-05_bt8192_wd0_el8_dm1024_dff2048_nh8_cosTrue_test_0/checkpoint_step_18500.pth
+	iters: 18600, epoch: 1 | loss: 0.2494600
+	speed: 2.5106s/iter; left time: 2618577.3880s
+	iters: 18700, epoch: 1 | loss: 0.2607472
+	speed: 2.3983s/iter; left time: 2501215.7569s
+	iters: 18800, epoch: 1 | loss: 0.2581241
+	speed: 2.7109s/iter; left time: 2826971.5183s
+	iters: 18900, epoch: 1 | loss: 0.2599773
+	speed: 2.4080s/iter; left time: 2510847.2888s
+	iters: 19000, epoch: 1 | loss: 0.2551652
+	speed: 2.4158s/iter; left time: 2518681.7633s
+Saved step checkpoint: ./checkpoints/forecast_utsd_timer_Utsd_Npy_sl2880_it96_ot96_lr5e-05_bt8192_wd0_el8_dm1024_dff2048_nh8_cosTrue_test_0/checkpoint_step_19000.pth
+	iters: 19100, epoch: 1 | loss: 0.2531749
+	speed: 2.5645s/iter; left time: 2673542.5709s
+	iters: 19200, epoch: 1 | loss: 0.2543642
+	speed: 2.4213s/iter; left time: 2523989.8758s
+	iters: 19300, epoch: 1 | loss: 0.2496066
+	speed: 2.7105s/iter; left time: 2825130.1160s
+	iters: 19400, epoch: 1 | loss: 0.2515361
+	speed: 2.4208s/iter; left time: 2522974.3956s
+	iters: 19500, epoch: 1 | loss: 0.2529150
+	speed: 2.4177s/iter; left time: 2519475.5076s
+Saved step checkpoint: ./checkpoints/forecast_utsd_timer_Utsd_Npy_sl2880_it96_ot96_lr5e-05_bt8192_wd0_el8_dm1024_dff2048_nh8_cosTrue_test_0/checkpoint_step_19500.pth
+	iters: 19600, epoch: 1 | loss: 0.2547678
+	speed: 2.5377s/iter; left time: 2644329.0306s
+	iters: 19700, epoch: 1 | loss: 0.2546960
+	speed: 2.4159s/iter; left time: 2517113.0001s
+	iters: 19800, epoch: 1 | loss: 0.2609921
+	speed: 2.5435s/iter; left time: 2649783.4755s
+	iters: 19900, epoch: 1 | loss: 0.2539986
+	speed: 2.4172s/iter; left time: 2518038.5359s
+	iters: 20000, epoch: 1 | loss: 0.2530919
+	speed: 2.4162s/iter; left time: 2516768.2573s
+Saved step checkpoint: ./checkpoints/forecast_utsd_timer_Utsd_Npy_sl2880_it96_ot96_lr5e-05_bt8192_wd0_el8_dm1024_dff2048_nh8_cosTrue_test_0/checkpoint_step_20000.pth
+	iters: 20100, epoch: 1 | loss: 0.2542066
+	speed: 2.5414s/iter; left time: 2646864.2211s
+	iters: 20200, epoch: 1 | loss: 0.2484873
+	speed: 2.4211s/iter; left time: 2521304.3428s
+	iters: 20300, epoch: 1 | loss: 0.2565820
+	speed: 2.5427s/iter; left time: 2647684.3366s
+	iters: 20400, epoch: 1 | loss: 0.2603148
+	speed: 2.4191s/iter; left time: 2518742.8476s
+	iters: 20500, epoch: 1 | loss: 0.2519248
+	speed: 2.4192s/iter; left time: 2518594.2726s
+Saved step checkpoint: ./checkpoints/forecast_utsd_timer_Utsd_Npy_sl2880_it96_ot96_lr5e-05_bt8192_wd0_el8_dm1024_dff2048_nh8_cosTrue_test_0/checkpoint_step_20500.pth
+	iters: 20600, epoch: 1 | loss: 0.2492810
+	speed: 2.5398s/iter; left time: 2643979.4319s
+	iters: 20700, epoch: 1 | loss: 0.2489372
+	speed: 2.4159s/iter; left time: 2514734.3654s
+	iters: 20800, epoch: 1 | loss: 0.2503546
+	speed: 2.5465s/iter; left time: 2650370.8062s
+	iters: 20900, epoch: 1 | loss: 0.2509696
+	speed: 2.4132s/iter; left time: 2511441.8446s
+	iters: 21000, epoch: 1 | loss: 0.2514243
+	speed: 2.4099s/iter; left time: 2507757.4124s
+Saved step checkpoint: ./checkpoints/forecast_utsd_timer_Utsd_Npy_sl2880_it96_ot96_lr5e-05_bt8192_wd0_el8_dm1024_dff2048_nh8_cosTrue_test_0/checkpoint_step_21000.pth
+	iters: 21100, epoch: 1 | loss: 0.2491155
+	speed: 2.5467s/iter; left time: 2649818.2342s
+	iters: 21200, epoch: 1 | loss: 0.2508790
+	speed: 2.4152s/iter; left time: 2512808.0347s
+	iters: 21300, epoch: 1 | loss: 0.2541435
+	speed: 2.5432s/iter; left time: 2645729.1118s
+	iters: 21400, epoch: 1 | loss: 0.2559102
+	speed: 2.4124s/iter; left time: 2509356.5584s
+	iters: 21500, epoch: 1 | loss: 0.2560922
+	speed: 2.5425s/iter; left time: 2644427.2358s
+Saved step checkpoint: ./checkpoints/forecast_utsd_timer_Utsd_Npy_sl2880_it96_ot96_lr5e-05_bt8192_wd0_el8_dm1024_dff2048_nh8_cosTrue_test_0/checkpoint_step_21500.pth
+	iters: 21600, epoch: 1 | loss: 0.2476847
+	speed: 2.4297s/iter; left time: 2526915.5231s
+	iters: 21700, epoch: 1 | loss: 0.2542931
+	speed: 2.4196s/iter; left time: 2516151.4244s
+	iters: 21800, epoch: 1 | loss: 0.2456216
+	speed: 2.5402s/iter; left time: 2641340.8340s
+	iters: 21900, epoch: 1 | loss: 0.2482763
+	speed: 2.4228s/iter; left time: 2519033.0568s
+	iters: 22000, epoch: 1 | loss: 0.2500711
+	speed: 2.5498s/iter; left time: 2650805.4564s
+Saved step checkpoint: ./checkpoints/forecast_utsd_timer_Utsd_Npy_sl2880_it96_ot96_lr5e-05_bt8192_wd0_el8_dm1024_dff2048_nh8_cosTrue_test_0/checkpoint_step_22000.pth
+	iters: 22100, epoch: 1 | loss: 0.2544977
+	speed: 2.5261s/iter; left time: 2625857.0433s
+	iters: 22200, epoch: 1 | loss: 0.2527955
+	speed: 2.4195s/iter; left time: 2514825.1046s
+	iters: 22300, epoch: 1 | loss: 0.2484463
+	speed: 2.4190s/iter; left time: 2514103.3669s
+	iters: 22400, epoch: 1 | loss: 0.2477667
+	speed: 2.5435s/iter; left time: 2643162.8401s
+	iters: 22500, epoch: 1 | loss: 0.2499956
+	speed: 2.4263s/iter; left time: 2521212.7818s
+Saved step checkpoint: ./checkpoints/forecast_utsd_timer_Utsd_Npy_sl2880_it96_ot96_lr5e-05_bt8192_wd0_el8_dm1024_dff2048_nh8_cosTrue_test_0/checkpoint_step_22500.pth
+	iters: 22600, epoch: 1 | loss: 0.2541997
+	speed: 2.5401s/iter; left time: 2639166.6852s
+	iters: 22700, epoch: 1 | loss: 0.2489633
+	speed: 2.4181s/iter; left time: 2512197.1794s
+	iters: 22800, epoch: 1 | loss: 0.2508533
+	speed: 2.5389s/iter; left time: 2637461.4434s
+	iters: 22900, epoch: 1 | loss: 0.2529789
+	speed: 2.4117s/iter; left time: 2505018.6944s
+	iters: 23000, epoch: 1 | loss: 0.2513918
+	speed: 2.4058s/iter; left time: 2498705.3176s
+Saved step checkpoint: ./checkpoints/forecast_utsd_timer_Utsd_Npy_sl2880_it96_ot96_lr5e-05_bt8192_wd0_el8_dm1024_dff2048_nh8_cosTrue_test_0/checkpoint_step_23000.pth
+	iters: 23100, epoch: 1 | loss: 0.2473953
+	speed: 2.5129s/iter; left time: 2609598.8927s
+	iters: 23200, epoch: 1 | loss: 0.2459680
+	speed: 2.3999s/iter; left time: 2492063.8556s
+	iters: 23300, epoch: 1 | loss: 0.2475569
+	speed: 2.5210s/iter; left time: 2617547.4973s
+	iters: 23400, epoch: 1 | loss: 0.2415325
+	speed: 2.3979s/iter; left time: 2489464.9421s
+	iters: 23500, epoch: 1 | loss: 0.2509076
+	speed: 2.3999s/iter; left time: 2491357.3507s
+Saved step checkpoint: ./checkpoints/forecast_utsd_timer_Utsd_Npy_sl2880_it96_ot96_lr5e-05_bt8192_wd0_el8_dm1024_dff2048_nh8_cosTrue_test_0/checkpoint_step_23500.pth
+	iters: 23600, epoch: 1 | loss: 0.2504724
+	speed: 2.5265s/iter; left time: 2622459.6877s
+	iters: 23700, epoch: 1 | loss: 0.2512767
+	speed: 2.3947s/iter; left time: 2485473.0415s
+	iters: 23800, epoch: 1 | loss: 0.2475181
+	speed: 2.5257s/iter; left time: 2621196.5878s
+	iters: 23900, epoch: 1 | loss: 0.2430625
+	speed: 2.3985s/iter; left time: 2488940.9814s
+	iters: 24000, epoch: 1 | loss: 0.2468037
+	speed: 2.3960s/iter; left time: 2486106.6228s
+Saved step checkpoint: ./checkpoints/forecast_utsd_timer_Utsd_Npy_sl2880_it96_ot96_lr5e-05_bt8192_wd0_el8_dm1024_dff2048_nh8_cosTrue_test_0/checkpoint_step_24000.pth
+	iters: 24100, epoch: 1 | loss: 0.2529888
+	speed: 2.5362s/iter; left time: 2631283.6121s
+	iters: 24200, epoch: 1 | loss: 0.2515422
+	speed: 2.3963s/iter; left time: 2485900.0680s
+	iters: 24300, epoch: 1 | loss: 0.2490066
+	speed: 2.5191s/iter; left time: 2613024.3265s
+	iters: 24400, epoch: 1 | loss: 0.2420139
+	speed: 2.3946s/iter; left time: 2483644.6023s
+	iters: 24500, epoch: 1 | loss: 0.2534197
+	speed: 2.4003s/iter; left time: 2489353.5720s
+Saved step checkpoint: ./checkpoints/forecast_utsd_timer_Utsd_Npy_sl2880_it96_ot96_lr5e-05_bt8192_wd0_el8_dm1024_dff2048_nh8_cosTrue_test_0/checkpoint_step_24500.pth
+	iters: 24600, epoch: 1 | loss: 0.2416753
+	speed: 2.5132s/iter; left time: 2606229.8380s
+	iters: 24700, epoch: 1 | loss: 0.2518733
+	speed: 2.3956s/iter; left time: 2483977.5111s
+	iters: 24800, epoch: 1 | loss: 0.2407823
+	speed: 2.5247s/iter; left time: 2617656.1923s
+	iters: 24900, epoch: 1 | loss: 0.2446134
+	speed: 2.3976s/iter; left time: 2485560.6457s
+	iters: 25000, epoch: 1 | loss: 0.2448598
+	speed: 2.3963s/iter; left time: 2484003.5026s
+Saved step checkpoint: ./checkpoints/forecast_utsd_timer_Utsd_Npy_sl2880_it96_ot96_lr5e-05_bt8192_wd0_el8_dm1024_dff2048_nh8_cosTrue_test_0/checkpoint_step_25000.pth
+	iters: 25100, epoch: 1 | loss: 0.2493252
+	speed: 2.5158s/iter; left time: 2607657.1842s
+	iters: 25200, epoch: 1 | loss: 0.2459379
+	speed: 2.3933s/iter; left time: 2480463.2248s
+	iters: 25300, epoch: 1 | loss: 0.2435529
+	speed: 2.5201s/iter; left time: 2611534.7168s
+	iters: 25400, epoch: 1 | loss: 0.2419816
+	speed: 2.3958s/iter; left time: 2482530.6614s
+	iters: 25500, epoch: 1 | loss: 0.2461305
+	speed: 2.3964s/iter; left time: 2482922.2741s
+Saved step checkpoint: ./checkpoints/forecast_utsd_timer_Utsd_Npy_sl2880_it96_ot96_lr5e-05_bt8192_wd0_el8_dm1024_dff2048_nh8_cosTrue_test_0/checkpoint_step_25500.pth
+	iters: 25600, epoch: 1 | loss: 0.2481641
+	speed: 2.5119s/iter; left time: 2602293.7140s
+	iters: 25700, epoch: 1 | loss: 0.2535934
+	speed: 2.3950s/iter; left time: 2481006.6889s
+	iters: 25800, epoch: 1 | loss: 0.2531234
+	speed: 2.5180s/iter; left time: 2608140.6547s
+	iters: 25900, epoch: 1 | loss: 0.2516381
+	speed: 2.3984s/iter; left time: 2484014.1311s
+	iters: 26000, epoch: 1 | loss: 0.2381006
+	speed: 2.3992s/iter; left time: 2484608.1004s
+Saved step checkpoint: ./checkpoints/forecast_utsd_timer_Utsd_Npy_sl2880_it96_ot96_lr5e-05_bt8192_wd0_el8_dm1024_dff2048_nh8_cosTrue_test_0/checkpoint_step_26000.pth
+	iters: 26100, epoch: 1 | loss: 0.2417978
+	speed: 2.5215s/iter; left time: 2611020.1695s
+	iters: 26200, epoch: 1 | loss: 0.2384420
+	speed: 2.3959s/iter; left time: 2480748.7394s
+	iters: 26300, epoch: 1 | loss: 0.2472188
+	speed: 2.5242s/iter; left time: 2613296.2970s
+	iters: 26400, epoch: 1 | loss: 0.2428446
+	speed: 2.3972s/iter; left time: 2481558.2407s
+	iters: 26500, epoch: 1 | loss: 0.2457619
+	speed: 2.3960s/iter; left time: 2480134.3118s
+Saved step checkpoint: ./checkpoints/forecast_utsd_timer_Utsd_Npy_sl2880_it96_ot96_lr5e-05_bt8192_wd0_el8_dm1024_dff2048_nh8_cosTrue_test_0/checkpoint_step_26500.pth
+	iters: 26600, epoch: 1 | loss: 0.2366923
+	speed: 2.5173s/iter; left time: 2605425.6956s
+	iters: 26700, epoch: 1 | loss: 0.2434623
+	speed: 2.3959s/iter; left time: 2479514.3579s
+	iters: 26800, epoch: 1 | loss: 0.2467643
+	speed: 2.5331s/iter; left time: 2621224.8017s
+	iters: 26900, epoch: 1 | loss: 0.2433187
+	speed: 2.4155s/iter; left time: 2499344.4186s
+	iters: 27000, epoch: 1 | loss: 0.2455892
+	speed: 2.4263s/iter; left time: 2510262.8243s
+Saved step checkpoint: ./checkpoints/forecast_utsd_timer_Utsd_Npy_sl2880_it96_ot96_lr5e-05_bt8192_wd0_el8_dm1024_dff2048_nh8_cosTrue_test_0/checkpoint_step_27000.pth
+	iters: 27100, epoch: 1 | loss: 0.2416276
+	speed: 2.7263s/iter; left time: 2820339.2533s
+	iters: 27200, epoch: 1 | loss: 0.2396703
+	speed: 2.4149s/iter; left time: 2497931.6043s
+	iters: 27300, epoch: 1 | loss: 0.2442862
+	speed: 2.5757s/iter; left time: 2664009.3336s
+	iters: 27400, epoch: 1 | loss: 0.2483787
+	speed: 2.4154s/iter; left time: 2497962.1204s
+	iters: 27500, epoch: 1 | loss: 0.2374710
+	speed: 2.4195s/iter; left time: 2501979.3448s
+Saved step checkpoint: ./checkpoints/forecast_utsd_timer_Utsd_Npy_sl2880_it96_ot96_lr5e-05_bt8192_wd0_el8_dm1024_dff2048_nh8_cosTrue_test_0/checkpoint_step_27500.pth
+	iters: 27600, epoch: 1 | loss: 0.2460092
+	speed: 2.5739s/iter; left time: 2661453.3839s
+	iters: 27700, epoch: 1 | loss: 0.2396062
+	speed: 2.6719s/iter; left time: 2762487.2877s
+	iters: 27800, epoch: 1 | loss: 0.2492706
+	speed: 2.4109s/iter; left time: 2492418.1052s
+	iters: 27900, epoch: 1 | loss: 0.2410177
+	speed: 2.5449s/iter; left time: 2630680.4597s
+	iters: 28000, epoch: 1 | loss: 0.2365259
+	speed: 2.4155s/iter; left time: 2496663.4639s
+Saved step checkpoint: ./checkpoints/forecast_utsd_timer_Utsd_Npy_sl2880_it96_ot96_lr5e-05_bt8192_wd0_el8_dm1024_dff2048_nh8_cosTrue_test_0/checkpoint_step_28000.pth
+	iters: 28100, epoch: 1 | loss: 0.2377393
+	speed: 2.4225s/iter; left time: 2503625.4876s
+	iters: 28200, epoch: 1 | loss: 0.2450066
+	speed: 2.5431s/iter; left time: 2628051.5682s
+	iters: 28300, epoch: 1 | loss: 0.2465630
+	speed: 2.4197s/iter; left time: 2500246.8986s
+	iters: 28400, epoch: 1 | loss: 0.2470598
+	speed: 2.5430s/iter; left time: 2627397.4909s
+	iters: 28500, epoch: 1 | loss: 0.2414980
+	speed: 2.4172s/iter; left time: 2497201.0575s
+Saved step checkpoint: ./checkpoints/forecast_utsd_timer_Utsd_Npy_sl2880_it96_ot96_lr5e-05_bt8192_wd0_el8_dm1024_dff2048_nh8_cosTrue_test_0/checkpoint_step_28500.pth
+	iters: 28600, epoch: 1 | loss: 0.2407695
+	speed: 2.5255s/iter; left time: 2608810.1237s
+	iters: 28700, epoch: 1 | loss: 0.2426074
+	speed: 2.4087s/iter; left time: 2487946.4482s
+	iters: 28800, epoch: 1 | loss: 0.2409756
+	speed: 2.5339s/iter; left time: 2616971.5035s
+	iters: 28900, epoch: 1 | loss: 0.2448555
+	speed: 2.4153s/iter; left time: 2494235.4936s
+	iters: 29000, epoch: 1 | loss: 0.2392863
+	speed: 2.4202s/iter; left time: 2499083.7140s
+Saved step checkpoint: ./checkpoints/forecast_utsd_timer_Utsd_Npy_sl2880_it96_ot96_lr5e-05_bt8192_wd0_el8_dm1024_dff2048_nh8_cosTrue_test_0/checkpoint_step_29000.pth
+	iters: 29100, epoch: 1 | loss: 0.2441943
+	speed: 2.5342s/iter; left time: 2616572.8010s
+	iters: 29200, epoch: 1 | loss: 0.2429767
+	speed: 2.4204s/iter; left time: 2498874.7846s
+	iters: 29300, epoch: 1 | loss: 0.2429881
+	speed: 2.5451s/iter; left time: 2627265.4681s
+	iters: 29400, epoch: 1 | loss: 0.2390218
+	speed: 2.4219s/iter; left time: 2499878.6963s
+	iters: 29500, epoch: 1 | loss: 0.2463297
+	speed: 2.4160s/iter; left time: 2493570.0805s
+Saved step checkpoint: ./checkpoints/forecast_utsd_timer_Utsd_Npy_sl2880_it96_ot96_lr5e-05_bt8192_wd0_el8_dm1024_dff2048_nh8_cosTrue_test_0/checkpoint_step_29500.pth
+	iters: 29600, epoch: 1 | loss: 0.2462599
+	speed: 2.5863s/iter; left time: 2669113.8646s
+	iters: 29700, epoch: 1 | loss: 0.2419949
+	speed: 2.4192s/iter; left time: 2496347.2985s
+	iters: 29800, epoch: 1 | loss: 0.2409965
+	speed: 2.5668s/iter; left time: 2648380.4069s
+	iters: 29900, epoch: 1 | loss: 0.2428267
+	speed: 2.4168s/iter; left time: 2493386.0678s
+	iters: 30000, epoch: 1 | loss: 0.2457811
+	speed: 2.4167s/iter; left time: 2493060.1346s
+Saved step checkpoint: ./checkpoints/forecast_utsd_timer_Utsd_Npy_sl2880_it96_ot96_lr5e-05_bt8192_wd0_el8_dm1024_dff2048_nh8_cosTrue_test_0/checkpoint_step_30000.pth
+	iters: 30100, epoch: 1 | loss: 0.2400594
+	speed: 2.5354s/iter; left time: 2615316.0092s
+	iters: 30200, epoch: 1 | loss: 0.2344010
+	speed: 2.4229s/iter; left time: 2499008.9452s
+	iters: 30300, epoch: 1 | loss: 0.2363875
+	speed: 2.5541s/iter; left time: 2634093.1483s
+	iters: 30400, epoch: 1 | loss: 0.2359986
+	speed: 2.4086s/iter; left time: 2483699.3236s
+	iters: 30500, epoch: 1 | loss: 0.2389673
+	speed: 2.4053s/iter; left time: 2480086.6956s
+Saved step checkpoint: ./checkpoints/forecast_utsd_timer_Utsd_Npy_sl2880_it96_ot96_lr5e-05_bt8192_wd0_el8_dm1024_dff2048_nh8_cosTrue_test_0/checkpoint_step_30500.pth
+	iters: 30600, epoch: 1 | loss: 0.2383520
+	speed: 2.5262s/iter; left time: 2604500.6794s
+	iters: 30700, epoch: 1 | loss: 0.2459783
+	speed: 2.3947s/iter; left time: 2468717.4080s
+	iters: 30800, epoch: 1 | loss: 0.2427439
+	speed: 2.5271s/iter; left time: 2604967.1708s
+	iters: 30900, epoch: 1 | loss: 0.2410199
+	speed: 2.3966s/iter; left time: 2470199.7235s
+	iters: 31000, epoch: 1 | loss: 0.2366748
+	speed: 2.4051s/iter; left time: 2478689.1942s
+Saved step checkpoint: ./checkpoints/forecast_utsd_timer_Utsd_Npy_sl2880_it96_ot96_lr5e-05_bt8192_wd0_el8_dm1024_dff2048_nh8_cosTrue_test_0/checkpoint_step_31000.pth
+	iters: 31100, epoch: 1 | loss: 0.2393362
+	speed: 2.5321s/iter; left time: 2609356.1417s
+	iters: 31200, epoch: 1 | loss: 0.2354985
+	speed: 2.4260s/iter; left time: 2499771.3581s
+	iters: 31300, epoch: 1 | loss: 0.2474226
+	speed: 2.6375s/iter; left time: 2717454.0734s
+	iters: 31400, epoch: 1 | loss: 0.2438579
+	speed: 2.3807s/iter; left time: 2452566.7495s
+	iters: 31500, epoch: 1 | loss: 0.2435487
+	speed: 2.3805s/iter; left time: 2452170.2173s
+Saved step checkpoint: ./checkpoints/forecast_utsd_timer_Utsd_Npy_sl2880_it96_ot96_lr5e-05_bt8192_wd0_el8_dm1024_dff2048_nh8_cosTrue_test_0/checkpoint_step_31500.pth
+	iters: 31600, epoch: 1 | loss: 0.2431102
+	speed: 2.5551s/iter; left time: 2631787.3491s
+	iters: 31700, epoch: 1 | loss: 0.2391283
+	speed: 2.3768s/iter; left time: 2447915.0986s
+	iters: 31800, epoch: 1 | loss: 0.2437303
+	speed: 2.5847s/iter; left time: 2661679.9808s
+	iters: 31900, epoch: 1 | loss: 0.2394759
+	speed: 2.3792s/iter; left time: 2449834.0209s
+	iters: 32000, epoch: 1 | loss: 0.2393639
+	speed: 2.3791s/iter; left time: 2449474.8019s
+Saved step checkpoint: ./checkpoints/forecast_utsd_timer_Utsd_Npy_sl2880_it96_ot96_lr5e-05_bt8192_wd0_el8_dm1024_dff2048_nh8_cosTrue_test_0/checkpoint_step_32000.pth
+	iters: 32100, epoch: 1 | loss: 0.2424349
+	speed: 2.4924s/iter; left time: 2565910.3229s
+	iters: 32200, epoch: 1 | loss: 0.2371628
+	speed: 2.3815s/iter; left time: 2451473.6722s
+	iters: 32300, epoch: 1 | loss: 0.2400639
+	speed: 2.5050s/iter; left time: 2578442.2575s
+	iters: 32400, epoch: 1 | loss: 0.2365405
+	speed: 2.3781s/iter; left time: 2447557.3185s
+	iters: 32500, epoch: 1 | loss: 0.2354322
+	speed: 2.3792s/iter; left time: 2448404.2639s
+Saved step checkpoint: ./checkpoints/forecast_utsd_timer_Utsd_Npy_sl2880_it96_ot96_lr5e-05_bt8192_wd0_el8_dm1024_dff2048_nh8_cosTrue_test_0/checkpoint_step_32500.pth
+	iters: 32600, epoch: 1 | loss: 0.2423922
+	speed: 2.5048s/iter; left time: 2577455.0217s
+	iters: 32700, epoch: 1 | loss: 0.2358880
+	speed: 2.3764s/iter; left time: 2445080.6539s
+	iters: 32800, epoch: 1 | loss: 0.2334844
+	speed: 2.5027s/iter; left time: 2574738.4070s
+	iters: 32900, epoch: 1 | loss: 0.2386850
+	speed: 2.3819s/iter; left time: 2450313.3677s
+	iters: 33000, epoch: 1 | loss: 0.2399024
+	speed: 2.3768s/iter; left time: 2444778.6687s
+Saved step checkpoint: ./checkpoints/forecast_utsd_timer_Utsd_Npy_sl2880_it96_ot96_lr5e-05_bt8192_wd0_el8_dm1024_dff2048_nh8_cosTrue_test_0/checkpoint_step_33000.pth
+	iters: 33100, epoch: 1 | loss: 0.2344845
+	speed: 2.5044s/iter; left time: 2575810.4473s
+	iters: 33200, epoch: 1 | loss: 0.2364595
+	speed: 2.3807s/iter; left time: 2448295.7899s
+	iters: 33300, epoch: 1 | loss: 0.2385222
+	speed: 2.3802s/iter; left time: 2447552.8536s
+	iters: 33400, epoch: 1 | loss: 0.2344484
+	speed: 2.4990s/iter; left time: 2569468.3014s
+	iters: 33500, epoch: 1 | loss: 0.2425800
+	speed: 2.5026s/iter; left time: 2572971.4192s
+Saved step checkpoint: ./checkpoints/forecast_utsd_timer_Utsd_Npy_sl2880_it96_ot96_lr5e-05_bt8192_wd0_el8_dm1024_dff2048_nh8_cosTrue_test_0/checkpoint_step_33500.pth
+	iters: 33600, epoch: 1 | loss: 0.2448596
+	speed: 2.3839s/iter; left time: 2450656.4207s
+	iters: 33700, epoch: 1 | loss: 0.2378537
+	speed: 2.3779s/iter; left time: 2444264.4055s
+	iters: 33800, epoch: 1 | loss: 0.2321714
+	speed: 2.5059s/iter; left time: 2575525.1660s
+	iters: 33900, epoch: 1 | loss: 0.2400022
+	speed: 2.3839s/iter; left time: 2449965.3277s
+	iters: 34000, epoch: 1 | loss: 0.2307510
+	speed: 2.5202s/iter; left time: 2589772.9000s
+Saved step checkpoint: ./checkpoints/forecast_utsd_timer_Utsd_Npy_sl2880_it96_ot96_lr5e-05_bt8192_wd0_el8_dm1024_dff2048_nh8_cosTrue_test_0/checkpoint_step_34000.pth
+	iters: 34100, epoch: 1 | loss: 0.2395135
+	speed: 2.4759s/iter; left time: 2543977.6845s
+	iters: 34200, epoch: 1 | loss: 0.2357903
+	speed: 2.3734s/iter; left time: 2438455.9995s
+	iters: 34300, epoch: 1 | loss: 0.2375738
+	speed: 2.3754s/iter; left time: 2440221.2029s
+	iters: 34400, epoch: 1 | loss: 0.2350525
+	speed: 2.5127s/iter; left time: 2581086.3926s
+	iters: 34500, epoch: 1 | loss: 0.2335862
+	speed: 2.3725s/iter; left time: 2436798.5085s
+Saved step checkpoint: ./checkpoints/forecast_utsd_timer_Utsd_Npy_sl2880_it96_ot96_lr5e-05_bt8192_wd0_el8_dm1024_dff2048_nh8_cosTrue_test_0/checkpoint_step_34500.pth
+	iters: 34600, epoch: 1 | loss: 0.2354266
+	speed: 2.6116s/iter; left time: 2682131.2678s
+	iters: 34700, epoch: 1 | loss: 0.2338457
+	speed: 2.3804s/iter; left time: 2444428.6666s
+	iters: 34800, epoch: 1 | loss: 0.2365507
+	speed: 2.5305s/iter; left time: 2598349.2458s
+	iters: 34900, epoch: 1 | loss: 0.2387454
+	speed: 2.3783s/iter; left time: 2441764.0423s
+[2025-12-11T13:44:41.012] error: *** JOB 8287316 ON cn-b001 CANCELLED AT 2025-12-11T13:44:41 DUE TO TIME LIMIT ***
+
+======== GPU REPORT ========
+
+==============NVSMI LOG==============
+
+Timestamp                                 : Thu Dec 11 13:44:41 2025
+Driver Version                            : 580.95.05
+CUDA Version                              : 13.0
+
+Attached GPUs                             : 4
+GPU 00000000:15:00.0
+    Accounting Mode                       : Enabled
+    Accounting Mode Buffer Size           : 4000
+    Accounted Processes
+        Process ID                        : 3591843
+            GPU Utilization               : 92 %
+            Memory Utilization            : 38 %
+            Max memory usage              : 29552 MiB
+            Time                          : 0 ms
+            Is Running                    : 1
+
+GPU 00000000:3A:00.0
+    Accounting Mode                       : Enabled
+    Accounting Mode Buffer Size           : 4000
+    Accounted Processes
+        Process ID                        : 3591843
+            GPU Utilization               : 89 %
+            Memory Utilization            : 38 %
+            Max memory usage              : 28274 MiB
+            Time                          : 0 ms
+            Is Running                    : 1
+
+GPU 00000000:8A:00.0
+    Accounting Mode                       : Enabled
+    Accounting Mode Buffer Size           : 4000
+    Accounted Processes
+        Process ID                        : 3591843
+            GPU Utilization               : 90 %
+            Memory Utilization            : 37 %
+            Max memory usage              : 28234 MiB
+            Time                          : 0 ms
+            Is Running                    : 1
+
+GPU 00000000:B2:00.0
+    Accounting Mode                       : Enabled
+    Accounting Mode Buffer Size           : 4000
+    Accounted Processes
+        Process ID                        : 3591843
+            GPU Utilization               : 89 %
+            Memory Utilization            : 38 %
+            Max memory usage              : 28274 MiB
+            Time                          : 0 ms
+            Is Running                    : 1
+
+Thu Dec 11 13:44:41 2025       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 580.95.05              Driver Version: 580.95.05      CUDA Version: 13.0     |
++-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  Tesla V100-SXM2-32GB           On  |   00000000:15:00.0 Off |                    0 |
+| N/A   54C    P0             72W /  300W |   29590MiB /  32768MiB |    100%      Default |
+|                                         |                        |                  N/A |
++-----------------------------------------+------------------------+----------------------+
+|   1  Tesla V100-SXM2-32GB           On  |   00000000:3A:00.0 Off |                    0 |
+| N/A   51C    P0             71W /  300W |   28310MiB /  32768MiB |    100%      Default |
+|                                         |                        |                  N/A |
++-----------------------------------------+------------------------+----------------------+
+|   2  Tesla V100-SXM2-32GB           On  |   00000000:8A:00.0 Off |                    0 |
+| N/A   56C    P0             74W /  300W |   28272MiB /  32768MiB |     78%      Default |
+|                                         |                        |                  N/A |
++-----------------------------------------+------------------------+----------------------+
+|   3  Tesla V100-SXM2-32GB           On  |   00000000:B2:00.0 Off |                    0 |
+| N/A   55C    P0             71W /  300W |   28310MiB /  32768MiB |     88%      Default |
+|                                         |                        |                  N/A |
++-----------------------------------------+------------------------+----------------------+
+
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|    0   N/A  N/A         3591843      C   python                                29552MiB |
+|    1   N/A  N/A         3591843      C   python                                28274MiB |
+|    2   N/A  N/A         3591843      C   python                                28234MiB |
+|    3   N/A  N/A         3591843      C   python                                28274MiB |
++-----------------------------------------------------------------------------------------+
